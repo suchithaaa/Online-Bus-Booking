@@ -1,0 +1,221 @@
+h1{
+    background-color: darkgray;
+   font-style: italic;
+   text-align: center;
+}
+
+.customer-care {
+    background:skyblue;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+}
+
+
+.custm{
+font-style: normal;
+height: 10px;
+padding: 10px;
+
+}
+
+.email{
+    font-style: normal;
+}
+
+.offer{
+    color:purple;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.address{
+background-color:whitesmoke;
+display: flex;
+}
+#username1{
+   background-color:aquamarine;
+   margin-left: 10px;
+   margin-right: 10px;
+   height: 50px;
+   border-color: black;
+}
+.btn-primary1{
+width: 40%;
+height: 50px;
+background-color: red;
+margin-right: 10px;
+margin-left: 10px;
+border-radius: 50px;
+border-color: black;
+}
+
+.btn-group{
+    background-color: darkgray;
+    height: 500px;
+    margin-top:5px;
+    
+}
+.btn-primary{
+    color:white;
+    background-color:darkorange;
+    border:10px;
+    margin: 10px;
+
+    
+}
+.img_fluid{
+    
+    flex-direction: column;
+}
+.list-group-flush{
+    background-color: wheat;
+   
+}
+.user{
+    background-color:lightblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    height:190px;
+    padding:6px;
+      
+}
+#username{
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding:5px;
+    border-color: black;
+}
+
+.social-links{
+    background-color: azure;
+    text-align: center;
+}
+
+.direction{
+   margin-left: 20px;
+   margin-top: 10px;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+.amenities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.amenity-card {
+    background-color: #ffcccc; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px; 
+    height: 150px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.amenity-icon {
+    width: 50px; 
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.floating-button img {
+    width: 40px; /* Adjust button icon size */
+    height: 40px;
+}
+.booking-card {
+    background: linear-gradient(to bottom, #ff0000, #c40000); /* Gradient Red */
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.booking-card:hover {
+    transform: scale(1.05);
+}
+
+.booking-icon {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.booking-line {
+    width: 80%;
+    height: 2px;
+    background: white;
+    margin: 10px auto;
+}
+
+.btn-book {
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-book:hover {
+    background-color: #ffe5e5;
+    color: darkred;
+}
+.booking-card {
+    position: relative;
+    animation: NoticeAnimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes NoticeAnimation {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 800px; 
+    }
+}
+.chat-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border-style: inherit;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
